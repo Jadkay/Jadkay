@@ -2264,7 +2264,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = false\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = false\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallySCH or RikuSCH is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
+					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = false\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = false\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallyAST or RikuAST is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -2338,7 +2338,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = true\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = true\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallySCH or RikuSCH is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
+					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = true\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = true\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallyAST or RikuAST is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -3249,7 +3249,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = false\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = false\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallySCH or RikuSCH is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
+					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = false\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = false\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallyAST or RikuAST is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -3323,7 +3323,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = true\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = true\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallySCH or RikuSCH is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
+					actionLua = "if gACRSelectedProfiles[Player.job] == \"SallyAST\" then\n\t\t\t\tSallyAST.SkillSettings.Divination.enabled = true\nelseif gACRSelectedProfiles[Player.job] == \"RikuAST\" then\n\t\t\t\tACR_RikuAST_Divination = true\n\t\t\t\tself.used = true\nelse\n\t\t\t\td(\"Either SallyAST or RikuAST is not selected as ACR.\")\nend\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,

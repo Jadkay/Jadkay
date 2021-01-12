@@ -2061,7 +2061,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local mytarget = Player:GetTarget()\nif mytarget.id ~= 9766 or mytarget == nil then\n\t\tPlayer:SetTarget(9766)\nend\nself.used = true",
+			execute = "local mytarget = Player:GetTarget()\nif mytarget == nil or mytarget.id ~= 9766 then\n\t\tPlayer:SetTarget(9766)\nend\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,
@@ -3950,7 +3950,7 @@ local tbl =
 			{
 			},
 			enabled = true,
-			execute = "local mytarget = Player:GetTarget()\nif mytarget.id ~= 9766 or mytarget == nil then\n\t\tPlayer:SetTarget(9766)\nend\nself.used = true",
+			execute = "local mytarget = Player:GetTarget()\nif mytarget == nil or mytarget.id ~= 9766 then\n\t\tPlayer:SetTarget(9766)\nend\nself.used = true",
 			executeType = 2,
 			lastUse = 0,
 			loop = false,

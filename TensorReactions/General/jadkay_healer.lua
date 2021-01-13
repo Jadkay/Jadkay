@@ -812,7 +812,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallySCH.ChangeHealProfile(1)\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallySCH.ChangeHealProfile(1)\nSendTextCommand(\"/e Changed Healing profile to 1\")\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -856,7 +856,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallySCH.ChangeHealProfile(3)\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallySCH.ChangeHealProfile(3)\nSendTextCommand(\"/e Changed Healing profile to 3\")\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -900,7 +900,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyAST.ChangeHealProfile(1)\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyAST.ChangeHealProfile(1)\nSendTextCommand(\"/e Changed Healing profile to 1\")\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -944,7 +944,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyAST.ChangeHealProfile(3)\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyAST.ChangeHealProfile(3)\nSendTextCommand(\"/e Changed Healing profile to 3\")\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -988,7 +988,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyWHM.ChangeHealProfile(1)\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyWHM.ChangeHealProfile(1)\nSendTextCommand(\"/e Changed Healing profile to 1\")\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -1032,7 +1032,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyWHM.ChangeHealProfile(3)\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyWHM.ChangeHealProfile(3)\nSendTextCommand(\"/e Changed Healing profile to 3\")\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -1335,7 +1335,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nfor k, v in pairs(midtable) do\n\t\tif Player.localmapid == v then return true\n\t\telse return false\n\t\tend\nend",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nif midtable[Player.localmapid] == true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -1757,7 +1757,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true\n}\n\nreturn midtable[Player.localmapid] == true",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n--trial ex\n[935] = true\n}\n\nreturn midtable[Player.localmapid] == true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -2425,7 +2425,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true\n}\n\nreturn midtable[Player.localmapid] == true",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n--trial ex\n[935] = true\n}\n\nreturn midtable[Player.localmapid] == true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -2738,7 +2738,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true\n}\n\nreturn midtable[Player.localmapid] == true",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n--trial ex\n[935] = true\n}\n\nreturn midtable[Player.localmapid] == true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -5265,7 +5265,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nfor k, v in pairs(midtable) do\n\t\tif Player.localmapid == v then return true\n\t\telse return false\n\t\tend\nend",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nif midtable[Player.localmapid] == true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -6771,7 +6771,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nfor k, v in pairs(midtable) do\n\t\tif Player.localmapid == v then return true\n\t\telse return false\n\t\tend\nend",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nif midtable[Player.localmapid] == true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -8639,7 +8639,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nfor k, v in pairs(midtable) do\n\t\tif Player.localmapid == v then return true\n\t\telse return false\n\t\tend\nend",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nif midtable[Player.localmapid] == true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -11569,7 +11569,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nfor k, v in pairs(midtable) do\n\t\tif Player.localmapid == v then return true\n\t\telse return false\n\t\tend\nend",
+				conditionLua = "local midtable = {\n-- eden savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[935] = true\n}\n\nif midtable[Player.localmapid] == true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{

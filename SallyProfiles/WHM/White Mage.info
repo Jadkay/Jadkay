@@ -139,7 +139,7 @@ local obj1 = {
 		["PartyBuffCheck"] = "74,89,747,1834,7531";
 		["RangeCheck"] = 25;
 		["SelfBuffCheck"] = "";
-		["Skill"] = 16;
+		["Skill"] = 14;
 		["Target"] = 2;
 		["Throttle"] = 750;
 	};

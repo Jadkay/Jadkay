@@ -62,6 +62,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 16.9,
 			name = "Collective Unconscious",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -139,6 +140,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Neutral Section",
 			randomOffset = 3,
 			randomTimeout = 3,
@@ -213,6 +215,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Horoscope Initial",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -351,6 +354,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Horoscope Helios Regen",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -489,6 +493,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Horoscope Helios Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -563,6 +568,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Horoscope Final",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -640,6 +646,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 47.5,
 			name = "Synastry",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -655,7 +662,7 @@ local tbl =
 			uuid = "39b85efa-7c09-df5f-80a5-b5c7f0601d20",
 		},
 	},
-	[7] = 
+	[6] = 
 	{
 		
 		{
@@ -717,6 +724,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "Earthly Star Center",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -724,7 +732,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = -17,
 			timerOffset = 0,
 			timerStartOffset = -19.5,
@@ -732,7 +740,7 @@ local tbl =
 			uuid = "998c844e-adb2-82f7-9639-497061f2d6fa",
 		},
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -794,6 +802,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Surecast",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -801,7 +810,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = 0,
 			timerOffset = -6,
 			timerStartOffset = 0,
@@ -809,7 +818,7 @@ local tbl =
 			uuid = "6fa3b6ea-f67d-372a-8ea5-661bd520d6db",
 		},
 	},
-	[9] = 
+	[8] = 
 	{
 		
 		{
@@ -871,6 +880,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Lightspeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -878,7 +888,7 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 5,
 			timerOffset = 4,
 			timerStartOffset = 2,
@@ -945,6 +955,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -952,16 +963,13 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 13,
 			timerOffset = 0,
 			timerStartOffset = 10,
 			used = false,
 			uuid = "316ad7b9-d666-6b33-8c99-8590124ef521",
 		},
-	},
-	[11] = 
-	{
 	},
 	[13] = 
 	{
@@ -1025,6 +1033,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Earthly Star Center",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1099,6 +1108,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Horoscope Initial",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1237,6 +1247,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Horoscope Helios Regen",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1375,6 +1386,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Horoscope Helios Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1449,6 +1461,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Horoscope Final",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1464,7 +1477,7 @@ local tbl =
 			uuid = "6c590db8-e055-8db8-a618-f6ad45e6cbea",
 		},
 	},
-	[16] = 
+	[15] = 
 	{
 		
 		{
@@ -1526,6 +1539,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 159.5,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1533,7 +1547,7 @@ local tbl =
 			time = 159.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 16,
+			timelineIndex = 15,
 			timerEndOffset = -10,
 			timerOffset = 0,
 			timerStartOffset = -13,
@@ -1541,7 +1555,7 @@ local tbl =
 			uuid = "c816f3b0-7984-7145-92b4-02de31ed1604",
 		},
 	},
-	[17] = 
+	[19] = 
 	{
 		
 		{
@@ -1603,6 +1617,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 182.1,
 			name = "Synastry",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1610,7 +1625,7 @@ local tbl =
 			time = 182.1,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 17,
+			timelineIndex = 19,
 			timerEndOffset = 2,
 			timerOffset = 0,
 			timerStartOffset = -1,
@@ -1618,7 +1633,7 @@ local tbl =
 			uuid = "211dfc5a-da45-b969-ad8b-bd849367f65e",
 		},
 	},
-	[19] = 
+	[20] = 
 	{
 		
 		{
@@ -1680,6 +1695,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Neutral Section",
 			randomOffset = 3,
 			randomTimeout = 3,
@@ -1687,7 +1703,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = -4,
 			timerOffset = 0,
 			timerStartOffset = -7,
@@ -1754,6 +1770,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Horoscope Initial",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1761,7 +1778,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = -1,
 			timerOffset = 0,
 			timerStartOffset = -4,
@@ -1892,6 +1909,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Horoscope Helios Regen",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1899,7 +1917,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 2,
 			timerOffset = 0,
 			timerStartOffset = -1,
@@ -2030,6 +2048,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Horoscope Helios Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2037,7 +2056,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 2,
 			timerOffset = 0,
 			timerStartOffset = -1,
@@ -2104,6 +2123,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Horoscope Final",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2111,7 +2131,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 5,
 			timerOffset = 0,
 			timerStartOffset = 2,
@@ -2119,7 +2139,7 @@ local tbl =
 			uuid = "b93689b6-8f91-22e0-85f3-785ba4a21f53",
 		},
 	},
-	[21] = 
+	[22] = 
 	{
 		
 		{
@@ -2181,6 +2201,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 216,
 			name = "Target cloud then boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2188,7 +2209,7 @@ local tbl =
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 21,
+			timelineIndex = 22,
 			timerEndOffset = 25,
 			timerOffset = 0,
 			timerStartOffset = -10,
@@ -2258,6 +2279,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 248.5,
 			name = "Lightspeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2335,6 +2357,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Horoscope Initial",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2473,6 +2496,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Horoscope Helios Regen",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2611,6 +2635,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Horoscope Helios Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2685,6 +2710,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Horoscope Final",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2762,6 +2788,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 285.9,
 			name = "Earthly Star Center",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2839,6 +2866,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 314.8,
 			name = "Synastry",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2854,7 +2882,7 @@ local tbl =
 			uuid = "5959049d-b391-118f-9611-ea5c657422b9",
 		},
 	},
-	[31] = 
+	[30] = 
 	{
 		
 		{
@@ -2916,6 +2944,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 337.4,
 			name = "Neutral Section",
 			randomOffset = 3,
 			randomTimeout = 3,
@@ -2923,7 +2952,7 @@ local tbl =
 			time = 337.4,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 31,
+			timelineIndex = 30,
 			timerEndOffset = 13,
 			timerOffset = 0,
 			timerStartOffset = 10,
@@ -2931,7 +2960,7 @@ local tbl =
 			uuid = "21300bd4-ba0d-924f-bc44-44ec4a0a0bc3",
 		},
 	},
-	[32] = 
+	[31] = 
 	{
 		
 		{
@@ -2993,6 +3022,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "Earthly Star Center",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3000,7 +3030,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = -17,
 			timerOffset = 0,
 			timerStartOffset = -19.5,
@@ -3067,6 +3097,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "Collective Unconscious",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3074,7 +3105,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = -0.5,
 			timerOffset = 0,
 			timerStartOffset = -3.5,
@@ -3082,7 +3113,7 @@ local tbl =
 			uuid = "72eea447-846d-5766-a2d8-f95f128f808c",
 		},
 	},
-	[33] = 
+	[32] = 
 	{
 		
 		{
@@ -3144,6 +3175,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Surecast",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3151,7 +3183,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = 0,
 			timerOffset = -6,
 			timerStartOffset = 0,
@@ -3159,7 +3191,7 @@ local tbl =
 			uuid = "79a2312e-95d6-f13b-9bb8-c849070e2e4f",
 		},
 	},
-	[34] = 
+	[33] = 
 	{
 		
 		{
@@ -3221,6 +3253,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 377.3,
 			name = "Lightspeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3228,16 +3261,13 @@ local tbl =
 			time = 377.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 34,
+			timelineIndex = 33,
 			timerEndOffset = -3,
 			timerOffset = 4,
 			timerStartOffset = -6,
 			used = false,
 			uuid = "7cb77897-bb77-d9ff-a11e-2250edef8269",
 		},
-	},
-	[36] = 
-	{
 	},
 	[38] = 
 	{
@@ -3301,6 +3331,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 418.9,
 			name = "Earthly Star Center",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3375,6 +3406,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 418.9,
 			name = "Collective Unconscious",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3390,7 +3422,7 @@ local tbl =
 			uuid = "bb61bfc3-1b42-9a9e-82ce-16557bf5fc5f",
 		},
 	},
-	[40] = 
+	[39] = 
 	{
 		
 		{
@@ -3452,6 +3484,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 433,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3459,7 +3492,7 @@ local tbl =
 			time = 433,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 40,
+			timelineIndex = 39,
 			timerEndOffset = 13,
 			timerOffset = 0,
 			timerStartOffset = 10,
@@ -3467,7 +3500,7 @@ local tbl =
 			uuid = "555f9738-bd5a-c4c7-b477-fca9435faade",
 		},
 	},
-	[43] = 
+	[41] = 
 	{
 		
 		{
@@ -3529,6 +3562,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 461.3,
 			name = "Synastry",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3536,7 +3570,7 @@ local tbl =
 			time = 461.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 43,
+			timelineIndex = 41,
 			timerEndOffset = 2,
 			timerOffset = 0,
 			timerStartOffset = -1,
@@ -3544,7 +3578,7 @@ local tbl =
 			uuid = "ee5ed0e4-08a1-ab39-a830-aa8cf1ee0fdc",
 		},
 	},
-	[45] = 
+	[42] = 
 	{
 		
 		{
@@ -3606,6 +3640,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Neutral Section",
 			randomOffset = 3,
 			randomTimeout = 3,
@@ -3613,7 +3648,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = -4,
 			timerOffset = 0,
 			timerStartOffset = -7,
@@ -3680,6 +3715,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Horoscope Initial",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3687,7 +3723,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -3818,6 +3854,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Horoscope Helios Regen",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3825,7 +3862,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -3956,6 +3993,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Horoscope Helios Shield",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3963,7 +4001,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -4030,6 +4068,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Horoscope Final",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4037,7 +4076,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 6,
 			timerOffset = 0,
 			timerStartOffset = 3,
@@ -4045,7 +4084,7 @@ local tbl =
 			uuid = "19458331-0f34-708f-b220-1a4c8c0e79f3",
 		},
 	},
-	[49] = 
+	[44] = 
 	{
 		
 		{
@@ -4107,6 +4146,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 495,
 			name = "Target cloud then boss",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4114,7 +4154,7 @@ local tbl =
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 49,
+			timelineIndex = 44,
 			timerEndOffset = 25,
 			timerOffset = 0,
 			timerStartOffset = -10,
@@ -4122,10 +4162,7 @@ local tbl =
 			uuid = "a0598d6e-b19d-e368-a79e-5fecf76ba389",
 		},
 	},
-	[51] = 
-	{
-	},
-	[52] = 
+	[46] = 
 	{
 		
 		{
@@ -4187,6 +4224,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 527.5,
 			name = "Lightspeed",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4194,7 +4232,7 @@ local tbl =
 			time = 527.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 52,
+			timelineIndex = 46,
 			timerEndOffset = 0,
 			timerOffset = 4,
 			timerStartOffset = -3,
@@ -4202,7 +4240,7 @@ local tbl =
 			uuid = "f7850ba7-e37e-d74b-94f5-5ae4a81ab1e0",
 		},
 	},
-	[54] = 
+	[47] = 
 	{
 		
 		{
@@ -4264,6 +4302,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 543.3,
 			name = "Earthly Star Center",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4271,7 +4310,7 @@ local tbl =
 			time = 543.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 54,
+			timelineIndex = 47,
 			timerEndOffset = -17,
 			timerOffset = 0,
 			timerStartOffset = -19.5,
@@ -4280,7 +4319,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 3,
+	version = 4,
 }
 
 

@@ -1,8 +1,5 @@
 local tbl = 
 {
-	[2] = 
-	{
-	},
 	[3] = 
 	{
 		
@@ -193,6 +190,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 27.1,
 			name = "Sacred Soil",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -334,6 +332,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 47.5,
 			name = "Recitation",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -472,6 +471,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 47.5,
 			name = "Excog MT",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -487,7 +487,7 @@ local tbl =
 			uuid = "a4516794-fb62-5768-a802-18877577caa0",
 		},
 	},
-	[7] = 
+	[6] = 
 	{
 		
 		{
@@ -613,6 +613,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "Seraph",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -620,7 +621,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = -10.5,
 			timerOffset = -15,
 			timerStartOffset = -13,
@@ -751,6 +752,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "SS + Consolation + FI",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -758,7 +760,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = -10.5,
 			timerOffset = -11,
 			timerStartOffset = -13,
@@ -889,6 +891,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 63.1,
 			name = "Consolation",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -896,7 +899,7 @@ local tbl =
 			time = 63.1,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 7,
+			timelineIndex = 6,
 			timerEndOffset = 3,
 			timerOffset = 2,
 			timerStartOffset = 0,
@@ -904,7 +907,7 @@ local tbl =
 			uuid = "9e9e8030-ce86-7fbc-9bef-9e8c81974ef1",
 		},
 	},
-	[8] = 
+	[7] = 
 	{
 		
 		{
@@ -966,6 +969,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 74.3,
 			name = "Surecast",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -973,7 +977,7 @@ local tbl =
 			time = 74.3,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 8,
+			timelineIndex = 7,
 			timerEndOffset = -3.5,
 			timerOffset = -6,
 			timerStartOffset = -6,
@@ -981,7 +985,7 @@ local tbl =
 			uuid = "75d72d2a-27be-08e0-a43f-8e93720cf26b",
 		},
 	},
-	[9] = 
+	[8] = 
 	{
 		
 		{
@@ -1043,6 +1047,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Whispering Dawn",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1050,7 +1055,7 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 0,
 			timerOffset = -3,
 			timerStartOffset = -3,
@@ -1117,6 +1122,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 81.8,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1124,7 +1130,7 @@ local tbl =
 			time = 81.8,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 9,
+			timelineIndex = 8,
 			timerEndOffset = 15,
 			timerOffset = 0,
 			timerStartOffset = 12,
@@ -1322,6 +1328,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 126.2,
 			name = "Sacred Soil",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1337,7 +1344,7 @@ local tbl =
 			uuid = "8b8696c5-6483-26db-98db-f619929088e3",
 		},
 	},
-	[16] = 
+	[15] = 
 	{
 		
 		{
@@ -1399,6 +1406,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 159.5,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1406,7 +1414,7 @@ local tbl =
 			time = 159.5,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 16,
+			timelineIndex = 15,
 			timerEndOffset = -10,
 			timerOffset = 0,
 			timerStartOffset = -13,
@@ -1414,7 +1422,7 @@ local tbl =
 			uuid = "29ba9899-e47b-e798-9b95-844160589b62",
 		},
 	},
-	[17] = 
+	[19] = 
 	{
 		
 		{
@@ -1540,6 +1548,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 182.1,
 			name = "Recitation",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1547,7 +1556,7 @@ local tbl =
 			time = 182.1,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 17,
+			timelineIndex = 19,
 			timerEndOffset = -3,
 			timerOffset = -7,
 			timerStartOffset = -6,
@@ -1678,6 +1687,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 182.1,
 			name = "Excog MT",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1685,7 +1695,7 @@ local tbl =
 			time = 182.1,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 17,
+			timelineIndex = 19,
 			timerEndOffset = 2.5,
 			timerOffset = -3,
 			timerStartOffset = 0,
@@ -1693,7 +1703,7 @@ local tbl =
 			uuid = "e3f9db1a-6a78-dcd0-95a1-a2aba9a35b06",
 		},
 	},
-	[19] = 
+	[20] = 
 	{
 		
 		{
@@ -1819,6 +1829,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Seraph",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1826,7 +1837,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = -10.5,
 			timerOffset = -15,
 			timerStartOffset = -13,
@@ -1957,6 +1968,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "SS + Consolation + FI",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -1964,7 +1976,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = -10.5,
 			timerOffset = -11,
 			timerStartOffset = -13,
@@ -2095,6 +2107,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Consolation + WD",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2102,7 +2115,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 3,
 			timerOffset = 1,
 			timerStartOffset = 0,
@@ -2233,6 +2246,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 197.7,
 			name = "Disable Chain Stratagem",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2240,7 +2254,7 @@ local tbl =
 			time = 197.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 19,
+			timelineIndex = 20,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -2248,10 +2262,7 @@ local tbl =
 			uuid = "db0ca88f-b2a8-4076-943a-27e90ddb85c4",
 		},
 	},
-	[20] = 
-	{
-	},
-	[21] = 
+	[22] = 
 	{
 		
 		{
@@ -2313,6 +2324,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 216,
 			name = "Target cloud then boss + Enable CS",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2320,22 +2332,13 @@ local tbl =
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 21,
+			timelineIndex = 22,
 			timerEndOffset = 25,
 			timerOffset = 0,
 			timerStartOffset = -10,
 			used = false,
 			uuid = "23df8290-f99f-0ab2-a145-0933b0449c5d",
 		},
-	},
-	[23] = 
-	{
-	},
-	[24] = 
-	{
-	},
-	[25] = 
-	{
 	},
 	[26] = 
 	{
@@ -2463,6 +2466,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 279,
 			name = "Whispering Dawn",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2668,6 +2672,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 301.2,
 			name = "Sacred Soil",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2809,6 +2814,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 314.8,
 			name = "Recitation",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2947,6 +2953,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 314.8,
 			name = "Excog MT",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -2962,7 +2969,7 @@ local tbl =
 			uuid = "fa9b6c60-a501-1a52-9a6a-8deb73531ec4",
 		},
 	},
-	[32] = 
+	[31] = 
 	{
 		
 		{
@@ -3088,6 +3095,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "Seraph",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3095,7 +3103,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = -10.5,
 			timerOffset = -15,
 			timerStartOffset = -13,
@@ -3226,6 +3234,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "SS + Consolation + FI",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3233,7 +3242,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = -10.5,
 			timerOffset = -11,
 			timerStartOffset = -13,
@@ -3364,6 +3373,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 358,
 			name = "Consolation + WD",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3371,7 +3381,7 @@ local tbl =
 			time = 358,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 32,
+			timelineIndex = 31,
 			timerEndOffset = 3,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -3379,7 +3389,7 @@ local tbl =
 			uuid = "f79de057-7987-67d2-a532-9d2c7e0a7479",
 		},
 	},
-	[33] = 
+	[32] = 
 	{
 		
 		{
@@ -3441,6 +3451,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 369.2,
 			name = "Surecast",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3448,7 +3459,7 @@ local tbl =
 			time = 369.2,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 33,
+			timelineIndex = 32,
 			timerEndOffset = -2.5,
 			timerOffset = -6,
 			timerStartOffset = -6,
@@ -3582,6 +3593,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 418.9,
 			name = "SS + WD",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3597,7 +3609,7 @@ local tbl =
 			uuid = "f63abf96-cb67-05f8-af8b-657c2e23a501",
 		},
 	},
-	[40] = 
+	[39] = 
 	{
 		
 		{
@@ -3659,6 +3671,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 433,
 			name = "Sprint",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3666,7 +3679,7 @@ local tbl =
 			time = 433,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 40,
+			timelineIndex = 39,
 			timerEndOffset = 15,
 			timerOffset = 0,
 			timerStartOffset = 12,
@@ -3674,7 +3687,7 @@ local tbl =
 			uuid = "b0805717-b7d5-6609-92ed-5b8ff090c2f6",
 		},
 	},
-	[43] = 
+	[41] = 
 	{
 		
 		{
@@ -3800,6 +3813,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 461.3,
 			name = "Recitation",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3807,7 +3821,7 @@ local tbl =
 			time = 461.3,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 43,
+			timelineIndex = 41,
 			timerEndOffset = -0.5,
 			timerOffset = -7,
 			timerStartOffset = -7,
@@ -3938,6 +3952,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 461.3,
 			name = "Excog MT",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -3945,7 +3960,7 @@ local tbl =
 			time = 461.3,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 43,
+			timelineIndex = 41,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = -3,
@@ -3953,7 +3968,7 @@ local tbl =
 			uuid = "471acd24-2cee-ec64-bdcc-17f11b4a432a",
 		},
 	},
-	[45] = 
+	[42] = 
 	{
 		
 		{
@@ -4079,6 +4094,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Seraph",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4086,7 +4102,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = -10.5,
 			timerOffset = -15,
 			timerStartOffset = -13,
@@ -4217,6 +4233,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "SS + Consolation + FI",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4224,7 +4241,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = -10.5,
 			timerOffset = -11,
 			timerStartOffset = -13,
@@ -4355,6 +4372,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Consolation + WD",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4362,7 +4380,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 3,
 			timerOffset = 1,
 			timerStartOffset = 0,
@@ -4493,6 +4511,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 476.7,
 			name = "Disable Chain Stratagem",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4500,7 +4519,7 @@ local tbl =
 			time = 476.7,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 45,
+			timelineIndex = 42,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -4508,10 +4527,7 @@ local tbl =
 			uuid = "930bd4d4-ea1f-b9fe-99e2-0e016023f168",
 		},
 	},
-	[47] = 
-	{
-	},
-	[49] = 
+	[44] = 
 	{
 		
 		{
@@ -4573,6 +4589,7 @@ local tbl =
 			loop = true,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 495,
 			name = "Target cloud then boss + Enable CS",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4580,7 +4597,7 @@ local tbl =
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,
-			timelineIndex = 49,
+			timelineIndex = 44,
 			timerEndOffset = 25,
 			timerOffset = 0,
 			timerStartOffset = -10,
@@ -4588,13 +4605,7 @@ local tbl =
 			uuid = "57f167d7-7d6a-4458-8b44-41ccc16eaaab",
 		},
 	},
-	[51] = 
-	{
-	},
-	[52] = 
-	{
-	},
-	[54] = 
+	[47] = 
 	{
 		
 		{
@@ -4784,6 +4795,7 @@ local tbl =
 			loop = false,
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
+			mechanicTime = 543.3,
 			name = "SS + WD",
 			randomOffset = 0,
 			randomTimeout = 3,
@@ -4791,7 +4803,7 @@ local tbl =
 			time = 543.3,
 			timeRandomRange = false,
 			timeRange = false,
-			timelineIndex = 54,
+			timelineIndex = 47,
 			timerEndOffset = -3.5,
 			timerOffset = -5,
 			timerStartOffset = -6,
@@ -4800,7 +4812,7 @@ local tbl =
 		},
 	},
 	mapID = 946,
-	version = 3,
+	version = 4,
 }
 
 

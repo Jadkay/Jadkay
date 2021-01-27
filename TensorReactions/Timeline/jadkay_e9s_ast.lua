@@ -889,9 +889,9 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = true,
 			timelineIndex = 8,
-			timerEndOffset = 5,
+			timerEndOffset = 6,
 			timerOffset = 4,
-			timerStartOffset = 2,
+			timerStartOffset = 3,
 			used = false,
 			uuid = "8da910db-2fb6-594c-80ec-2f4fe4497644",
 		},
@@ -970,6 +970,9 @@ local tbl =
 			used = false,
 			uuid = "316ad7b9-d666-6b33-8c99-8590124ef521",
 		},
+	},
+	[9] = 
+	{
 	},
 	[13] = 
 	{
@@ -2205,7 +2208,7 @@ local tbl =
 			name = "Target cloud then boss",
 			randomOffset = 0,
 			randomTimeout = 3,
-			throttleTime = 0,
+			throttleTime = 1000,
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
@@ -4150,7 +4153,7 @@ local tbl =
 			name = "Target cloud then boss",
 			randomOffset = 0,
 			randomTimeout = 3,
-			throttleTime = 0,
+			throttleTime = 1000,
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,

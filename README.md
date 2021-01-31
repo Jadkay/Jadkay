@@ -8,6 +8,6 @@ Healing profiles :
 * WHM => regular content and savage (savage must be used with proper timeline)
 
 Timeline for eden promise :
-* e9s => AST, SCH and WHM
-* e10s => AST, SCH and WHM
-* e11s => AST, SCH and WHM
+* e9s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
+* e10s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
+* e11s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)

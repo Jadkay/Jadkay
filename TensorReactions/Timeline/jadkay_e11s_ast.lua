@@ -167,9 +167,9 @@ local tbl =
 			{
 				
 				{
-					aType = 1,
+					aType = 4,
 					actionID = 7559,
-					actionLua = "",
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = true,
 					castAtMouse = false,
@@ -216,7 +216,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SendTextCommand(\"/e Surecast not available, get in !\")\nself.used = true\nreaction.eventConditionMismatch = true",
+					actionLua = "if jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB OFF\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 3, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -232,7 +232,7 @@ local tbl =
 						1,
 						3,
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -472,7 +472,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "e160a890-6ca1-0805-ae1a-1c1d3de2f4e8",
+			uuid = "a019871c-d80f-5974-993a-b1a38fddda33",
 		},
 	},
 	[8] = 
@@ -994,7 +994,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SendTextCommand(\"/e Surecast will not be casted, get in !\")\nself.used = true\nreaction.eventConditionMismatch = true",
+					actionLua = "if jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB OFF\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 3, playAudio)\nend",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -1009,7 +1009,7 @@ local tbl =
 					{
 						1,
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -1866,9 +1866,9 @@ local tbl =
 			{
 				
 				{
-					aType = 1,
+					aType = 4,
 					actionID = 7559,
-					actionLua = "",
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = true,
 					castAtMouse = false,
@@ -1915,7 +1915,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SendTextCommand(\"/e Surecast not available, get in !\")\nself.used = true\nreaction.eventConditionMismatch = true",
+					actionLua = "if jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB OFF\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 3, playAudio)\nend",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -1931,7 +1931,7 @@ local tbl =
 						1,
 						3,
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -2171,7 +2171,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "38492d33-748a-965b-886d-c76effaec679",
+			uuid = "f91a12ee-bad1-4bd8-b702-03ef352bf90b",
 		},
 	},
 	[32] = 
@@ -3882,7 +3882,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SendTextCommand(\"/e Surecast will not be casted, get in !\")\nself.used = true\nreaction.eventConditionMismatch = true",
+					actionLua = "if jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB OFF\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 3, playAudio)\nend",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -3897,7 +3897,7 @@ local tbl =
 					{
 						1,
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -4476,9 +4476,9 @@ local tbl =
 			{
 				
 				{
-					aType = 1,
+					aType = 4,
 					actionID = 7559,
-					actionLua = "",
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = true,
 					castAtMouse = false,
@@ -4525,7 +4525,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SendTextCommand(\"/e Surecast not available, get in !\")\nself.used = true\nreaction.eventConditionMismatch = true",
+					actionLua = "if jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB OFF\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 3, playAudio)\nend",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -4541,7 +4541,7 @@ local tbl =
 						1,
 						3,
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -4781,7 +4781,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "a09da943-8bd3-2024-ac23-9b330eb62b2c",
+			uuid = "5481b7bd-6589-f0e7-acf3-c77f74a1a6cf",
 		},
 	},
 	[69] = 
@@ -6042,9 +6042,9 @@ local tbl =
 			{
 				
 				{
-					aType = 1,
+					aType = 4,
 					actionID = 7559,
-					actionLua = "",
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = true,
 					castAtMouse = false,
@@ -6058,6 +6058,7 @@ local tbl =
 					conditions = 
 					{
 						1,
+						2,
 					},
 					endIfUsed = true,
 					gVar = "",
@@ -6090,7 +6091,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SendTextCommand(\"/e Surecast not available, get in !\")\nself.used = true\nreaction.eventConditionMismatch = true",
+					actionLua = "if jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB OFF\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 3, playAudio)\nend",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -6103,9 +6104,10 @@ local tbl =
 					clusterRange = 30,
 					conditions = 
 					{
-						2,
+						1,
+						3,
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -6135,6 +6137,69 @@ local tbl =
 			},
 			conditions = 
 			{
+				
+				{
+					actionCDValue = 0,
+					actionID = -1,
+					buffCheckType = 1,
+					buffDuration = 0,
+					buffID = -1,
+					buffIDList = 
+					{
+					},
+					category = 1,
+					channelCheckSpellID = 22098,
+					channelCheckSpellIDList = 
+					{
+					},
+					channelCheckTimeRemain = 0,
+					channelCheckType = 1,
+					clusterMinPercent = false,
+					clusterMinTarget = 1,
+					clusterOriginalTarget = false,
+					clusterRadius = 8,
+					clusterRange = 30,
+					comparator = 1,
+					conditionLua = "",
+					conditionType = 7,
+					conditions = 
+					{
+					},
+					contentid = -1,
+					dequeueIfLuaFalse = true,
+					enmityValue = 0,
+					filterTargetSubtype = "Nearest",
+					filterTargetType = "Self",
+					gaugeIndex = 1,
+					gaugeValue = 0,
+					hpType = 1,
+					hpValue = 0,
+					inCombatType = 1,
+					inRangeValue = 0,
+					lastSkillID = -1,
+					localmapid = -1,
+					matchAnyBuff = false,
+					minTargetPercent = false,
+					mpType = 1,
+					mpValue = 0,
+					name = "Check Fire",
+					partyHpType = 1,
+					partyHpValue = 0,
+					partyMpType = 1,
+					partyMpValue = 0,
+					partyTargetContentID = -1,
+					partyTargetName = "",
+					partyTargetNumber = 1,
+					partyTargetSubType = "Nearest",
+					partyTargetType = "All",
+					rangeCheckSourceSubType = "Nearest",
+					rangeCheckSourceType = "Self",
+					rangeSourceContentID = -1,
+					rangeSourceName = "",
+					setEventTargetSubtype = 1,
+					setFirstMatch = false,
+					targetName = "",
+				},
 				
 				{
 					actionCDValue = 1,
@@ -6282,7 +6347,7 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = -5.5,
 			used = false,
-			uuid = "0bef42ac-8621-6598-a681-6a638576bbf1",
+			uuid = "73ddb0c2-b135-d354-b6b6-4b18536db544",
 		},
 	},
 	[146] = 

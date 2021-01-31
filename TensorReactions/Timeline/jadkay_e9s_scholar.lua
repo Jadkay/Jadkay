@@ -915,11 +915,11 @@ local tbl =
 			{
 				
 				{
-					aType = 1,
-					actionID = 7559,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
+					aType = 4,
+					actionID = -1,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
-					atomicPriority = true,
+					atomicPriority = false,
 					castAtMouse = false,
 					castPosX = 0,
 					castPosY = 0,
@@ -931,7 +931,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = true,
+					endIfUsed = false,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -978,11 +978,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 7,
-			timerEndOffset = -3.5,
+			timerEndOffset = 0,
 			timerOffset = -6,
-			timerStartOffset = -6,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "75d72d2a-27be-08e0-a43f-8e93720cf26b",
+			uuid = "782fcb06-ace6-772f-87b4-57036c0c910d",
 		},
 	},
 	[8] = 
@@ -3397,11 +3397,11 @@ local tbl =
 			{
 				
 				{
-					aType = 1,
-					actionID = 7559,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
+					aType = 4,
+					actionID = -1,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
-					atomicPriority = true,
+					atomicPriority = false,
 					castAtMouse = false,
 					castPosX = 0,
 					castPosY = 0,
@@ -3413,7 +3413,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = true,
+					endIfUsed = false,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -3460,11 +3460,11 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 32,
-			timerEndOffset = -2.5,
+			timerEndOffset = 0,
 			timerOffset = -6,
-			timerStartOffset = -6,
+			timerStartOffset = 0,
 			used = false,
-			uuid = "41fd8931-1678-3752-b503-47b118fa2a31",
+			uuid = "ff0b31e5-f764-abbc-aea9-c2de0341f17b",
 		},
 	},
 	[38] = 

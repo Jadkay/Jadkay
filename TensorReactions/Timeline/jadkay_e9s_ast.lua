@@ -750,7 +750,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -764,7 +764,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -2208,7 +2208,7 @@ local tbl =
 			name = "Target cloud then boss",
 			randomOffset = 0,
 			randomTimeout = 3,
-			throttleTime = 1000,
+			throttleTime = 250,
 			time = 216,
 			timeRandomRange = false,
 			timeRange = true,
@@ -3126,7 +3126,7 @@ local tbl =
 				{
 					aType = 4,
 					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -4153,7 +4153,7 @@ local tbl =
 			name = "Target cloud then boss",
 			randomOffset = 0,
 			randomTimeout = 3,
-			throttleTime = 1000,
+			throttleTime = 250,
 			time = 495,
 			timeRandomRange = false,
 			timeRange = true,

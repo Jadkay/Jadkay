@@ -3838,9 +3838,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -3854,7 +3854,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -3899,13 +3899,13 @@ local tbl =
 			throttleTime = 0,
 			time = 191.2,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 26,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "c6c38ce5-f606-41c1-aa62-d2aad27988ac",
+			uuid = "3144ad6a-1120-9157-83bc-ec4502caa6ac",
 		},
 		
 		{
@@ -8374,9 +8374,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -8390,7 +8390,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -8435,13 +8435,13 @@ local tbl =
 			throttleTime = 0,
 			time = 438.9,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 60,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "b25a1370-63e2-6cda-8b7b-aa5ce9bb2aa3",
+			uuid = "1bd80d86-42ad-8e35-8c6e-d7460f0ffc3a",
 		},
 		
 		{
@@ -11346,9 +11346,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -11362,7 +11362,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -11407,13 +11407,13 @@ local tbl =
 			throttleTime = 0,
 			time = 629.8,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 93,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "827d963f-7b14-ab78-8ab4-ba2cbef08a43",
+			uuid = "09dc73ed-d2f8-dee5-bafc-2c604065a45b",
 		},
 	},
 	[95] = 

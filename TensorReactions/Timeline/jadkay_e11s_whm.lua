@@ -8,7 +8,7 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
+					aType = 1,
 					actionID = 7559,
 					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
@@ -750,7 +750,7 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
+					aType = 1,
 					actionID = 7559,
 					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
@@ -1773,7 +1773,7 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
+					aType = 1,
 					actionID = 7559,
 					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
@@ -2938,7 +2938,7 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
+					aType = 1,
 					actionID = 7559,
 					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,

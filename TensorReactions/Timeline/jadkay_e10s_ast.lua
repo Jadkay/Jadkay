@@ -2572,9 +2572,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -2633,13 +2633,13 @@ local tbl =
 			throttleTime = 0,
 			time = 191.2,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 26,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "93760a47-6d44-42ae-9485-82342f554e8a",
+			uuid = "cc014502-a7cc-6415-a78f-d77fb93d5016",
 		},
 	},
 	[27] = 
@@ -6126,9 +6126,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -6187,13 +6187,13 @@ local tbl =
 			throttleTime = 0,
 			time = 438.9,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 60,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "ec5c9418-bb5a-6c5a-8280-edad4fa52bd3",
+			uuid = "6c213755-b732-9b2b-aef4-0c91ede40172",
 		},
 	},
 	[64] = 
@@ -7253,9 +7253,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -7314,13 +7314,13 @@ local tbl =
 			throttleTime = 0,
 			time = 629.8,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 93,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "2e30d930-acfa-3e45-b579-aa426ec13ed0",
+			uuid = "5cec8414-61dd-1ec2-89ee-798e5be9fc49",
 		},
 	},
 	[94] = 

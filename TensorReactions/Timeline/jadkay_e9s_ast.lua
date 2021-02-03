@@ -748,9 +748,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -809,11 +809,11 @@ local tbl =
 			throttleTime = 0,
 			time = 74.3,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 7,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
 			uuid = "6fa3b6ea-f67d-372a-8ea5-661bd520d6db",
 		},
@@ -3124,9 +3124,9 @@ local tbl =
 			{
 				
 				{
-					aType = 4,
-					actionID = -1,
-					actionLua = "SallyLib.QueueOGCD(7559, Player)\n\nif jadkayMessages == nil then jadkayMessages = {} end\n\nlocal safeToSendMessage = true\nlocal playAudio = false\nlocal durationMS = 3000\nlocal ttsString = \"Anti KB ON\"\n-- check if message already exist\nif jadkayMessages[ttsString] then\n  local lastUsed = TimeSince(jadkayMessages[ttsString])\n  if lastUsed > 0 and lastUsed < 5000 then safeToSendMessage = false end\nend\n\nif safeToSendMessage then\n  jadkayMessages[ttsString] = Now()\n  TensorCore.addAlertText(durationMS, ttsString, 1.0, 1, playAudio)\nend\n\nreaction.eventConditionMismatch = true",
+					aType = 1,
+					actionID = 7559,
+					actionLua = "SallyLib.QueueOGCD(7559, Player)\nreaction.eventConditionMismatch = true",
 					allowInterrupt = false,
 					atomicPriority = false,
 					castAtMouse = false,
@@ -3140,7 +3140,7 @@ local tbl =
 					conditions = 
 					{
 					},
-					endIfUsed = false,
+					endIfUsed = true,
 					gVar = "",
 					gVarValue = 1,
 					ignoreWeaveRules = false,
@@ -3185,13 +3185,13 @@ local tbl =
 			throttleTime = 0,
 			time = 369.2,
 			timeRandomRange = false,
-			timeRange = false,
+			timeRange = true,
 			timelineIndex = 32,
-			timerEndOffset = 0,
+			timerEndOffset = -2.5,
 			timerOffset = -6,
-			timerStartOffset = 0,
+			timerStartOffset = -6,
 			used = false,
-			uuid = "79a2312e-95d6-f13b-9bb8-c849070e2e4f",
+			uuid = "47b5f319-5fa8-9c68-8a21-e542396dc059",
 		},
 	},
 	[33] = 

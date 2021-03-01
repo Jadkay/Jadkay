@@ -8,6 +8,26 @@ local obj1 = {
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
 		["EnabledHealOff"] = true;
+		["Gauge"] = 3;
+		["GaugeCheck"] = 3;
+		["GaugeComparator"] = 1;
+		["HpPercentMax"] = 100;
+		["HpPercentMin"] = 0;
+		["IgnoreWeave"] = true;
+		["MinTargets"] = 1;
+		["Name"] = "Misery";
+		["PartyBuffCheck"] = "";
+		["RangeCheck"] = 25;
+		["SelfBuffCheck"] = "";
+		["Skill"] = 17;
+		["Target"] = 5;
+		["Throttle"] = 750;
+	};
+	[2] = {
+		["BuffChecks"] = "";
+		["BuffDuration"] = 0;
+		["Enabled"] = true;
+		["EnabledHealOff"] = true;
 		["Gauge"] = 0;
 		["GaugeCheck"] = 0;
 		["GaugeComparator"] = 1;
@@ -23,7 +43,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[2] = {
+	[3] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -43,7 +63,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 2000;
 	};
-	[3] = {
+	[4] = {
 		["BuffChecks"] = "82,810";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -63,7 +83,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[4] = {
+	[5] = {
 		["BuffChecks"] = "82,810,811,1218";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -83,7 +103,7 @@ local obj1 = {
 		["Target"] = 2;
 		["Throttle"] = 750;
 	};
-	[5] = {
+	[6] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -103,7 +123,7 @@ local obj1 = {
 		["Target"] = 2;
 		["Throttle"] = 750;
 	};
-	[6] = {
+	[7] = {
 		["BuffChecks"] = "1911";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -123,7 +143,7 @@ local obj1 = {
 		["Target"] = 2;
 		["Throttle"] = 750;
 	};
-	[7] = {
+	[8] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -143,7 +163,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[8] = {
+	[9] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -163,7 +183,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[9] = {
+	[10] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -183,7 +203,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[10] = {
+	[11] = {
 		["BuffChecks"] = "150";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -203,7 +223,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 2500;
 	};
-	[11] = {
+	[12] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -223,7 +243,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 2500;
 	};
-	[12] = {
+	[13] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -243,7 +263,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 2000;
 	};
-	[13] = {
+	[14] = {
 		["BuffChecks"] = "82,810,811";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -263,7 +283,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[14] = {
+	[15] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -283,7 +303,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 750;
 	};
-	[15] = {
+	[16] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -303,7 +323,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 2000;
 	};
-	[16] = {
+	[17] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -323,7 +343,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 1500;
 	};
-	[17] = {
+	[18] = {
 		["BuffChecks"] = "158";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -343,7 +363,7 @@ local obj1 = {
 		["Target"] = 2;
 		["Throttle"] = 750;
 	};
-	[18] = {
+	[19] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
@@ -363,7 +383,7 @@ local obj1 = {
 		["Target"] = 1;
 		["Throttle"] = 2000;
 	};
-	[19] = {
+	[20] = {
 		["BuffChecks"] = "";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;

@@ -2502,7 +2502,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "-- HB\nSallyWHM.HotBarConfig.Medica.enabled = true\nSallyWHM.HotBarConfig.Medica2.enabled = true\nSallyWHM.HotBarConfig.Cure3.enabled = true\nSallyWHM.HotBarConfig.AfflatusRapture.enabled = true\nSallyWHM.HotBarConfig.Temperance.enabled = true\nSallyWHM.HotBarConfig.Plenary.enabled = true\nSallyWHM.HotBarConfig.Sprint.enabled = true\nSallyWHM.HotBarConfig.Asylum.enabled = true\nSallyWHM.HotBarConfig.AsylumMouse.enabled = true\nSallyWHM.HotBarConfig.SureCast.enabled = true\nSallyWHM.HotBarConfig.TetraSelf.enabled = true\nSallyWHM.HotBarConfig.LB.enabled = true\n-- QT\nSallyWHM.SkillSettings.Opener.enabled = false\nSallyWHM.SkillSettings.SaveCD.enabled = false\nSallyWHM.SkillSettings.Attack.enabled = true\nSallyWHM.SkillSettings.Heal.enabled = false\nSallyWHM.SkillSettings.Potion.enabled = false\nSallyWHM.SkillSettings.UseAOE.enabled = false\nSallyWHM.SkillSettings.DoTs.enabled = true\nSallyWHM.SkillSettings.SmartDot.enabled = false\nSallyWHM.SkillSettings.ThinAir.enabled = true\nSallyWHM.SkillSettings.PoM.enabled = true\nSallyWHM.SkillSettings.LucidDreaming.enabled = true\nSallyWHM.SkillSettings.AfflatusMisery.enabled = true\nSallyWHM.SkillSettings.Holy.enabled = true\nSallyWHM.SkillSettings.ThinAir.enabled = true\nSallyWHM.SkillSettings.Raise.enabled = false\nSallyWHM.SkillSettings.SwiftRaise.enabled = false\nSallyWHM.SkillSettings.SwiftCastMovement.enabled = false\nSallyWHM.SkillSettings.RaptureWeave.enabled = false\nSallyWHM.SkillSettings.RaptureMovement.enabled = false\nSallyWHM.SkillSettings.IgnoreWeave.enabled = false\nSallyWHM.SkillSettings.Assize.enabled = false\n\n-- End Reaction\nself.used = true",
+				actionLua = "-- HB\nSallyWHM.HotBarConfig.Medica.enabled = true\nSallyWHM.HotBarConfig.Medica2.enabled = true\nSallyWHM.HotBarConfig.Cure3.enabled = true\nSallyWHM.HotBarConfig.ARapture.enabled = true\nSallyWHM.HotBarConfig.Temperance.enabled = true\nSallyWHM.HotBarConfig.Plenary.enabled = true\nSallyWHM.HotBarConfig.Sprint.enabled = true\nSallyWHM.HotBarConfig.Asylum.enabled = true\nSallyWHM.HotBarConfig.AsylumMouse.enabled = true\nSallyWHM.HotBarConfig.SureCast.enabled = true\nSallyWHM.HotBarConfig.TetraSelf.enabled = true\nSallyWHM.HotBarConfig.LB.enabled = true\n-- QT\nSallyWHM.SkillSettings.Opener.enabled = false\nSallyWHM.SkillSettings.SaveCD.enabled = false\nSallyWHM.SkillSettings.Attack.enabled = true\nSallyWHM.SkillSettings.Heal.enabled = false\nSallyWHM.SkillSettings.Potion.enabled = false\nSallyWHM.SkillSettings.UseAOE.enabled = false\nSallyWHM.SkillSettings.DoTs.enabled = true\nSallyWHM.SkillSettings.SmartDot.enabled = false\nSallyWHM.SkillSettings.ThinAir.enabled = true\nSallyWHM.SkillSettings.PoM.enabled = true\nSallyWHM.SkillSettings.LucidDreaming.enabled = true\nSallyWHM.SkillSettings.AfflatusMisery.enabled = true\nSallyWHM.SkillSettings.Holy.enabled = true\nSallyWHM.SkillSettings.ThinAir.enabled = true\nSallyWHM.SkillSettings.Raise.enabled = false\nSallyWHM.SkillSettings.SwiftRaise.enabled = false\nSallyWHM.SkillSettings.SwiftCastMovement.enabled = false\nSallyWHM.SkillSettings.RaptureWeave.enabled = false\nSallyWHM.SkillSettings.RaptureMovement.enabled = false\nSallyWHM.SkillSettings.IgnoreWeave.enabled = false\nSallyWHM.SkillSettings.Assize.enabled = false\n\n-- End Reaction\nself.used = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -2788,7 +2788,7 @@ local tbl =
 				setFirstMatch = false,
 			},
 		},
-		enabled = false,
+		enabled = true,
 		eventType = 9,
 		execute = "",
 		executeType = 1,
@@ -8148,7 +8148,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "-- HB\nSallyWHM.HotBarConfig.Medica.enabled = true\nSallyWHM.HotBarConfig.Medica2.enabled = true\nSallyWHM.HotBarConfig.Cure3.enabled = true\nSallyWHM.HotBarConfig.AfflatusRapture.enabled = true\nSallyWHM.HotBarConfig.Temperance.enabled = true\nSallyWHM.HotBarConfig.Plenary.enabled = true\nSallyWHM.HotBarConfig.Sprint.enabled = true\nSallyWHM.HotBarConfig.Asylum.enabled = true\nSallyWHM.HotBarConfig.AsylumMouse.enabled = true\nSallyWHM.HotBarConfig.SureCast.enabled = true\nSallyWHM.HotBarConfig.TetraSelf.enabled = true\nSallyWHM.HotBarConfig.LB.enabled = true\n\nself.used = true",
+				actionLua = "-- HB\nSallyWHM.HotBarConfig.Medica.enabled = true\nSallyWHM.HotBarConfig.Medica2.enabled = true\nSallyWHM.HotBarConfig.Cure3.enabled = true\nSallyWHM.HotBarConfig.ARapture.enabled = true\nSallyWHM.HotBarConfig.Temperance.enabled = true\nSallyWHM.HotBarConfig.Plenary.enabled = true\nSallyWHM.HotBarConfig.Sprint.enabled = true\nSallyWHM.HotBarConfig.Asylum.enabled = true\nSallyWHM.HotBarConfig.AsylumMouse.enabled = true\nSallyWHM.HotBarConfig.SureCast.enabled = true\nSallyWHM.HotBarConfig.TetraSelf.enabled = true\nSallyWHM.HotBarConfig.LB.enabled = true\n\nself.used = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,

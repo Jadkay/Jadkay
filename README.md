@@ -11,3 +11,6 @@ Timeline for eden promise :
 * e9s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
 * e10s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
 * e11s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
+
+General reactions for SallyHeals :
+check discord for more infos about reactions

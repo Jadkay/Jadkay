@@ -5277,7 +5277,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = 7869,
-				actionLua = "SallySCH.HotBarConfig.DissolveUnion.enabled = false\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "--SallySCH.HotBarConfig.DissolveUnion.enabled = false\nSallyLib.QueueOGCD(7869, Player)\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = true,
 				castAtMouse = false,
@@ -5563,7 +5563,7 @@ local tbl =
 				setFirstMatch = false,
 			},
 		},
-		enabled = false,
+		enabled = true,
 		eventType = 1,
 		execute = "",
 		executeType = 1,

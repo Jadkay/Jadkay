@@ -3,14 +3,20 @@
 A set of healing profiles for Sally ACR and Timelines & general reactions for TensorReactions.
 
 Healing profiles :
-* AST => regular content and savage (savage must be used with proper timeline)
-* SCH => regular content and savage (savage must be used with proper timeline)
-* WHM => regular content and savage (savage must be used with proper timeline)
 
-Timeline for eden promise :
-* e9s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
-* e10s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
-* e11s => AST, SCH and WHM (check discord for more infos about what skills to toggle off, to not use and more)
+* AST => regular content
+* SCH => regular content
+* WHM => regular content
+* SGE => (soon)
+
 
 General reactions for SallyHeals :
-check discord for more infos about reactions
+
+* General reaction for every healers jobs instead of 1 for all healers (as soon as SGE is ready for a first try, I will release them)
+* All Healers : Adding some reactions like initialising toggle on map change (minus extreme, savage, ultimate) + added an echo reminder for ast to update card priority list also on map change
+* All Healers : Updated ID for boss list (some were wrongs due a reason or an other)
+* All Healers : Update reactions to keep using BIG CD for last boss id of every duty (since cd doesn't matter there, no need to 'keep' them)
+* All Healers : Added level check for all toggles management
+* All Healers : Added an emergency healing reaction : will disable attack toggle if tank drop under 30% HP and re-enable when tank above 50% HP
+* AST : Added a TTS (without sound) warning when Earthly Star Giant Dominance reach 5s, so you can call on discord for the heal)
+* AST : Added an echo warning on map change to check card priority 

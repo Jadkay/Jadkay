@@ -391,17 +391,37 @@ local obj1 = {
 		["Gauge"] = 0;
 		["GaugeCheck"] = 0;
 		["GaugeComparator"] = 1;
-		["HpPercentMax"] = 95;
-		["HpPercentMin"] = 0;
+		["HpPercentMax"] = 100;
+		["HpPercentMin"] = 50;
 		["IgnoreWeave"] = false;
 		["MinTargets"] = 1;
 		["Name"] = "Esuna";
-		["PartyBuffCheck"] = "910,723,6,7,14,15,17,267,268,1511";
+		["PartyBuffCheck"] = "723,6,7,14,15,17,267,268,1511";
 		["RangeCheck"] = 30;
 		["SelfBuffCheck"] = "";
-		["Skill"] = 9;
+		["Skill"] = 14;
 		["Target"] = 1;
-		["Throttle"] = 1000;
+		["Throttle"] = 250;
+	};
+	[21] = {
+		["BuffChecks"] = "";
+		["BuffDuration"] = 0;
+		["Enabled"] = true;
+		["EnabledHealOff"] = true;
+		["Gauge"] = 0;
+		["GaugeCheck"] = 0;
+		["GaugeComparator"] = 1;
+		["HpPercentMax"] = 100;
+		["HpPercentMin"] = 10;
+		["IgnoreWeave"] = false;
+		["MinTargets"] = 1;
+		["Name"] = "Esuna Doom/Necrosis";
+		["PartyBuffCheck"] = "910,2965";
+		["RangeCheck"] = 30;
+		["SelfBuffCheck"] = "";
+		["Skill"] = 14;
+		["Target"] = 1;
+		["Throttle"] = 250;
 	};
 }
 return obj1

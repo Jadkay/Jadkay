@@ -44,7 +44,7 @@ local obj1 = {
 		["Throttle"] = 1250;
 	};
 	[3] = {
-		["BuffChecks"] = "1889";
+		["BuffChecks"] = "82,810,811,1218,2619,2708,2710,2717";
 		["BuffDuration"] = 0;
 		["Enabled"] = true;
 		["EnabledHealOff"] = true;

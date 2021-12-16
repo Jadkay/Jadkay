@@ -4,10 +4,15 @@ A set of healing profiles for Sally ACR and Timelines & general reactions for Te
 
 Healing profiles :
 
-* AST => regular content
-* SCH => regular content
-* WHM => regular content
-* SGE => regular content
+* AST => regular content + extreme trials
+* SCH => regular content + extreme trials
+* WHM => regular content + extreme trials
+* SGE => regular content + extreme trials
+
+Timeline :
+
+* Zodiark Extreme : all healers
+* Hydaelyn Extreme : all healers
 
 
 General reactions for SallyHeals :
@@ -22,3 +27,4 @@ General reactions for SallyHeals :
 * AST : Added a TTS (without sound) warning when Earthly Star Giant Dominance reach 5s, so you can call on discord for the heal)
 * AST : Added an echo warning on map change to check card priority
 * SGE : Added an echo warning on map change to check kardia priority
+* SGE : Added a Kardia Gui button for extreme and savage purpose to auto kardia the main tank

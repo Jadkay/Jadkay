@@ -60,7 +60,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "--Version 3.0",
+				conditionLua = "--Version 3.1",
 				conditionType = 1,
 				conditions = 
 				{
@@ -2310,7 +2310,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyWHM.SkillSettings.Heal.enabled = true\nSallyWHM.SkillSettings.Attack.enabled = false\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyAST.SkillSettings.Heal.enabled = true\nSallyAST.SkillSettings.Attack.enabled = false\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -2324,7 +2324,6 @@ local tbl =
 				conditions = 
 				{
 					1,
-					3,
 				},
 				endIfUsed = false,
 				fallthrough = false,
@@ -2358,7 +2357,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyWHM.SkillSettings.Heal.enabled = true\nSallyWHM.SkillSettings.Attack.enabled = true\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyAST.SkillSettings.Heal.enabled = true\nSallyAST.SkillSettings.Attack.enabled = true\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -2372,7 +2371,6 @@ local tbl =
 				conditions = 
 				{
 					2,
-					3,
 				},
 				endIfUsed = false,
 				fallthrough = false,
@@ -2467,7 +2465,7 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Check HP Tank <= 30",
+				name = "Check HP Party <= 30",
 				partyHpType = 1,
 				partyHpValue = 30,
 				partyMpType = 1,
@@ -2476,7 +2474,7 @@ local tbl =
 				partyTargetName = "",
 				partyTargetNumber = 1,
 				partyTargetSubType = "Nearest",
-				partyTargetType = "Tank",
+				partyTargetType = "All",
 				rangeCheckSourceSubType = "Nearest",
 				rangeCheckSourceType = "Self",
 				rangeSourceContentID = -1,
@@ -2546,16 +2544,16 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Check HP Tank >= 50",
+				name = "Check HP Party >= 60",
 				partyHpType = 1,
-				partyHpValue = 50,
+				partyHpValue = 60,
 				partyMpType = 1,
 				partyMpValue = 0,
 				partyTargetContentID = -1,
 				partyTargetName = "",
 				partyTargetNumber = 1,
 				partyTargetSubType = "Nearest",
-				partyTargetType = "Tank",
+				partyTargetType = "All",
 				rangeCheckSourceSubType = "Nearest",
 				rangeCheckSourceType = "Self",
 				rangeSourceContentID = -1,
@@ -2663,7 +2661,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "20d7e18b-27b7-9aa9-a9be-ef218ad0d338",
+		uuid = "fcdd5424-8ca2-4272-b46e-b453bcce6dc6",
 	},
 	
 	{

@@ -60,7 +60,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "--Version 3.0",
+				conditionLua = "--Version 3.1",
 				conditionType = 1,
 				conditions = 
 				{
@@ -3438,7 +3438,6 @@ local tbl =
 				conditions = 
 				{
 					1,
-					3,
 				},
 				endIfUsed = false,
 				fallthrough = false,
@@ -3486,7 +3485,6 @@ local tbl =
 				conditions = 
 				{
 					2,
-					3,
 				},
 				endIfUsed = false,
 				fallthrough = false,
@@ -3581,7 +3579,7 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Check HP Tank <= 30",
+				name = "Check HP Party <= 30",
 				partyHpType = 1,
 				partyHpValue = 30,
 				partyMpType = 1,
@@ -3590,7 +3588,7 @@ local tbl =
 				partyTargetName = "",
 				partyTargetNumber = 1,
 				partyTargetSubType = "Nearest",
-				partyTargetType = "Tank",
+				partyTargetType = "All",
 				rangeCheckSourceSubType = "Nearest",
 				rangeCheckSourceType = "Self",
 				rangeSourceContentID = -1,
@@ -3660,16 +3658,16 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Check HP Tank >= 50",
+				name = "Check HP Party >= 60",
 				partyHpType = 1,
-				partyHpValue = 50,
+				partyHpValue = 60,
 				partyMpType = 1,
 				partyMpValue = 0,
 				partyTargetContentID = -1,
 				partyTargetName = "",
 				partyTargetNumber = 1,
 				partyTargetSubType = "Nearest",
-				partyTargetType = "Tank",
+				partyTargetType = "All",
 				rangeCheckSourceSubType = "Nearest",
 				rangeCheckSourceType = "Self",
 				rangeSourceContentID = -1,

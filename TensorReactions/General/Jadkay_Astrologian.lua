@@ -4098,6 +4098,7 @@ local tbl =
 				conditions = 
 				{
 					1,
+					3,
 				},
 				endIfUsed = false,
 				fallthrough = false,
@@ -4131,7 +4132,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SallyAST.SkillSettings.Heal.enabled = true\nSallyAST.SkillSettings.Attack.enabled = true\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "SallyAST.SkillSettings.Attack.enabled = true\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -4145,6 +4146,7 @@ local tbl =
 				conditions = 
 				{
 					2,
+					3,
 				},
 				endIfUsed = false,
 				fallthrough = false,
@@ -4318,9 +4320,9 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Check HP Party >= 60",
+				name = "Check HP Party >= 50",
 				partyHpType = 1,
-				partyHpValue = 60,
+				partyHpValue = 50,
 				partyMpType = 1,
 				partyMpValue = 0,
 				partyTargetContentID = -1,

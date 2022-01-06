@@ -707,6 +707,8 @@ local tbl =
 					3,
 					5,
 					6,
+					7,
+					9,
 				},
 				endIfUsed = false,
 				fallthrough = false,

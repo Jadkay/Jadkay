@@ -1192,7 +1192,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nif midtable[Player.localmapid] ~= true\n\t\tthen return true\n\t\telse return false\nend",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nif midtable[Player.localmapid] ~= true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -1507,7 +1507,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -1743,7 +1743,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] == true",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] == true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -1954,52 +1954,6 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "SendTextCommand(\"/e Map changed : check kardia priority order.\")\nself.used = true\nreaction.eventConditionMismatch = true",
-				allowInterrupt = false,
-				atomicPriority = false,
-				castAtMouse = false,
-				castPosX = 0,
-				castPosY = 0,
-				castPosZ = 0,
-				clusterMinPercent = false,
-				clusterMinTarget = 1,
-				clusterRadius = 8,
-				clusterRange = 30,
-				conditions = 
-				{
-				},
-				endIfUsed = false,
-				fallthrough = false,
-				gVar = "",
-				gVarValue = 1,
-				ignoreWeaveRules = false,
-				isAreaTarget = false,
-				luaNeedsWeaveWindow = false,
-				luaReturnsAction = false,
-				name = "Warning for kardia priority",
-				potType = 1,
-				setTarget = false,
-				showPositionPreview = false,
-				stopCasting = false,
-				stopMoving = false,
-				targetContentID = -1,
-				targetName = "",
-				targetSubType = "Nearest",
-				targetType = "Self",
-				untarget = false,
-				useForWeaving = false,
-				useItem = false,
-				useItemID = 0,
-				useItemName = "",
-				usePot = false,
-				used = false,
-				variableIsHover = false,
-				variableTogglesType = 1,
-			},
-			
-			{
-				aType = 4,
-				actionID = -1,
 				actionLua = "SallySGE.SkillSettings.Pneuma.enabled = false\nSallySGE.SkillSettings.Rhizomata.enabled = true\nSallySGE.SkillSettings.Toxikon.enabled = true\nSallySGE.SkillSettings.ToxikonMovement.enabled = true\nSallySGE.SkillSettings.UseAOE.enabled = true\nSallySGE.SkillSettings.SmartAOE.enabled = true\nSallySGE.SkillSettings.DoTs.enabled = true\nSallySGE.SkillSettings.SmartDot.enabled = true\nSallySGE.SkillSettings.Phlegma.enabled = true\nSallySGE.SkillSettings.Heal.enabled = false\nSallySGE.SkillSettings.Attack.enabled = true\nSallySGE.SkillSettings.Potion.enabled = false\nSallySGE.SkillSettings.SaveCD.enabled = false\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
@@ -2116,7 +2070,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -2570,7 +2524,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -4133,7 +4087,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nreturn midtable[Player.localmapid] ~= true",
 				conditionType = 1,
 				conditions = 
 				{
@@ -4340,7 +4294,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nif midtable[Player.localmapid] ~= true\n\t\tthen return true\n\t\telse return false\nend",
+				conditionLua = "local midtable = {\n-- eden gate savage\n[853] = true,\n[854] = true,\n[855] = true,\n[856] = true,\n-- eden verse savage\n[906] = true,\n[907] = true,\n[908] = true,\n[909] = true,\n-- eden promise savage\n[941] = true,\n[946] = true,\n[947] = true,\n[948] = true,\n[949] = true,\n-- pandaemonium savage\n[1003] = true,\n[1005] = true,\n[1007] = true,\n[1009] = true,\n-- trial ex\n[845] = true,\n[846] = true,\n[847] = true,\n[848] = true,\n[858] = true,\n[873] = true,\n[880] = true,\n[881] = true,\n[885] = true,\n[897] = true,\n[912] = true,\n[922] = true,\n[923] = true,\n[931] = true,\n[934] = true,\n[935] = true,\n[936] = true,\n[951] = true,\n[993] = true,\n[996] = true\n}\n\nif midtable[Player.localmapid] ~= true\n\t\tthen return true\n\t\telse return false\nend",
 				conditionType = 1,
 				conditions = 
 				{

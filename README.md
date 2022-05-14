@@ -2,10 +2,10 @@
 
 A set of healing profiles for Sally ACR :
 
-* AST => regular content
-* SCH => regular content
-* WHM => regular content
-* SGE => regular content
+* AST => regular content + extreme + non reaction user (NR version)
+* SCH => regular content + extreme + non reaction user (NR version)
+* WHM => regular content + extreme + non reaction user (NR version)
+* SGE => regular content + extreme + non reaction user (NR version)
 
 
 General reactions for SallyHeals and MCRHeals
